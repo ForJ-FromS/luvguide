@@ -19,7 +19,8 @@
 - `img/ll-w-chat.png` — 채팅로그 디자인 3종
 - `img/ll-w-phone.png` — 단말기 디자인 4종
 - `img/ll-w-image-multi.png` — 이미지 위젯 — 넘기기·한 줄·필름·폴라로이드
-- `img/ll-w-char.png` — 캐릭터 프로필 스킨
+- `img/ll-w-char.png` — 캐릭터 프로필 스킨 10종
+- `img/ll-w-pair.png` — 페어 프로필 — 기본·스토리 카드·신분증
 - `img/ll-w-links.png` — 링크 위젯 스킨 5종
 - `img/ll-w-neighbors.png` — 이웃 홈 위젯 — 아바타 링
 - `img/ll-w-bgm.png` — BGM 스킨들과 미니 플레이어
@@ -28,7 +29,7 @@
 - `img/ll-basic-gate.png` — 입장 화면 모양 5종 — PC 화면 기준
 - `img/ll-theme-panel.png` — 테마·레이아웃 설정 창
 - `img/ll-theme-header.png` — 헤더 배치 프리셋 6종
-- `img/ll-dual.png` — 전환 버튼 모양 5종
+- `img/ll-dual.png` — 전환 버튼 모양 6종
 - `img/ll-stickers.png` — 스티커 탭과 배치
 - `img/ll-nb-banner.png` — 배너칸 — 러브로그 홈 걸기
 - `img/ll-backup.png` — 백업·복원 구역
