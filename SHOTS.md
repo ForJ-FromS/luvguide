@@ -25,13 +25,12 @@
 - `img/ll-w-bgm.png` — BGM 스킨들과 미니 플레이어
 - `img/ll-cat-types.png` — 카테고리 목록과 타입
 - `img/ll-basic-header.png` — 헤더 사진 편집 — PC·모바일 미리보기
-- `img/ll-basic-gate.png` — 입장 화면 모양 5종
+- `img/ll-basic-gate.png` — 입장 화면 모양 5종 — PC 화면 기준
 - `img/ll-theme-panel.png` — 테마·레이아웃 설정 창
 - `img/ll-theme-header.png` — 헤더 배치 프리셋 6종
-- `img/ll-dual.png` — 듀얼 탭과 전환 버튼
+- `img/ll-dual.png` — 전환 버튼 모양 5종
 - `img/ll-stickers.png` — 스티커 탭과 배치
 - `img/ll-nb-banner.png` — 배너칸 — 러브로그 홈 걸기
-- `img/ll-nb-guestbook.png` — 방명록 화면
 - `img/ll-backup.png` — 백업·복원 구역
 - `img/li-start-signup.png` — 러브인포 가입 화면
 - `img/li-pages-edit.png` — 보통 페이지 편집 — 블록 목록과 ⠿ 손잡이
@@ -40,6 +39,7 @@
 - `img/li-blocks-add.png` — ＋ 블록 추가 메뉴
 - `img/li-banner.png` — 배너 블록과 ♥ 맞배너
 - `img/li-html-page.png` — HTML 페이지 편집 화면
-- `img/li-gate.png` — 대문 스타일 2종과 미리보기
+- `img/li-gate.png` — 대문 스타일 2종과 미리보기 바 — PC 화면 기준, 폰에서는 입력칸이 더 작게 보여요
+- `img/li-presets.png` — 테마 프리셋 10종 — 같은 페이지가 프리셋마다 이렇게 바뀌어요
 - `img/li-design.png` — 꾸미기 시트
 - `img/li-guestbook.png` — 방명록 블록

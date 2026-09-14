@@ -229,11 +229,19 @@ const NAV=[
   }
   document.getElementById('menu').onclick=()=>document.body.classList.toggle('nav-open');
   const q=document.getElementById('q'), qr=document.getElementById('qr');
+  let IDX=null; fetch(R+'assets/search.json').then(r=>r.json()).then(j=>IDX=j).catch(()=>{});
+  const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  const snip=(x,v)=>{ const i=x.toLowerCase().indexOf(v); if(i<0) return ''; const a=Math.max(0,i-38), b=Math.min(x.length,i+v.length+60);
+    return (a>0?'…':'')+esc(x.slice(a,i))+'<mark>'+esc(x.slice(i,i+v.length))+'</mark>'+esc(x.slice(i+v.length,b))+(b<x.length?'…':''); };
   q.addEventListener('input',()=>{
-    const v=q.value.trim().toLowerCase(); if(!v){ qr.innerHTML=''; qr.classList.remove('on'); return; }
-    const hit=NAV.filter(n=>(n.t+' '+n.k+' '+n.c).toLowerCase().includes(v)).slice(0,8);
-    qr.innerHTML=hit.length?hit.map(n=>`<a href="${R}${n.p}"><b>${n.t}</b><i>${n.s==='luvlog'?'러브로그':'러브인포'} · ${n.c}</i></a>`).join(''):'<p>찾은 페이지가 없어요</p>';
+    const v=q.value.trim().toLowerCase(); if(v.length<1){ qr.innerHTML=''; qr.classList.remove('on'); return; }
+    const src=IDX||NAV.map(n=>({...n,x:n.k}));
+    const hit=src.map(n=>{ const inT=(n.t+' '+n.c).toLowerCase().includes(v), inX=n.x.toLowerCase().includes(v);
+      return inT||inX?{n,score:(inT?2:0)+(inX?1:0)}:null; }).filter(Boolean).sort((a,b)=>b.score-a.score).slice(0,8);
+    qr.innerHTML=hit.length?hit.map(({n})=>`<a href="${R}${n.p}"><b>${esc(n.t)}</b><i>${n.s==='luvlog'?'러브로그':'러브인포'} · ${esc(n.c)}</i>${n.x&&!(n.t+' '+n.c).toLowerCase().includes(v)?`<em>${snip(n.x,v)}</em>`:''}</a>`).join(''):'<p>찾은 내용이 없어요</p>';
     qr.classList.add('on');
   });
+  q.addEventListener('keydown',e=>{ if(e.key==='Escape'){ q.value=''; qr.classList.remove('on'); } if(e.key==='Enter'){ const a=qr.querySelector('a'); if(a) location.href=a.href; } });
+  document.addEventListener('keydown',e=>{ if(e.key==='/' && document.activeElement!==q){ e.preventDefault(); q.focus(); } });
   document.addEventListener('click',e=>{ if(!e.target.closest('.search')) qr.classList.remove('on'); });
 })();
