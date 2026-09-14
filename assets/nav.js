@@ -235,7 +235,7 @@ const NAV=[
     return (a>0?'…':'')+esc(x.slice(a,i))+'<mark>'+esc(x.slice(i,i+v.length))+'</mark>'+esc(x.slice(i+v.length,b))+(b<x.length?'…':''); };
   q.addEventListener('input',()=>{
     const v=q.value.trim().toLowerCase(); if(v.length<1){ qr.innerHTML=''; qr.classList.remove('on'); return; }
-    const src=IDX||NAV.map(n=>({...n,x:n.k}));
+    const src=(IDX||NAV.map(n=>({...n,x:n.k}))).filter(n=>svc==='common'||n.s===svc);   // 지금 보는 서비스 안에서만 찾기
     const hit=src.map(n=>{ const inT=(n.t+' '+n.c).toLowerCase().includes(v), inX=n.x.toLowerCase().includes(v);
       return inT||inX?{n,score:(inT?2:0)+(inX?1:0)}:null; }).filter(Boolean).sort((a,b)=>b.score-a.score).slice(0,8);
     qr.innerHTML=hit.length?hit.map(({n})=>`<a href="${R}${n.p}"><b>${esc(n.t)}</b><i>${n.s==='luvlog'?'러브로그':'러브인포'} · ${esc(n.c)}</i>${n.x&&!(n.t+' '+n.c).toLowerCase().includes(v)?`<em>${snip(n.x,v)}</em>`:''}</a>`).join(''):'<p>찾은 내용이 없어요</p>';
