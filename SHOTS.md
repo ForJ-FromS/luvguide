@@ -23,6 +23,7 @@
 - `img/ll-w-pair.png` — 페어 프로필 — 기본·스토리 카드·신분증
 - `img/ll-w-links.png` — 링크 위젯 스킨 5종
 - `img/ll-w-neighbors.png` — 이웃 홈 위젯 — 아바타 링
+- `img/ll-w-html.png` — HTML 위젯 — 편집과 결과
 - `img/ll-w-bgm.png` — BGM 스킨들과 미니 플레이어
 - `img/ll-cat-types.png` — 카테고리 목록과 타입
 - `img/ll-basic-header.png` — 헤더 사진 편집 — PC·모바일 미리보기

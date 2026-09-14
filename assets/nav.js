@@ -71,6 +71,13 @@ const NAV=[
 "k": "프로필 검색 카테고리 링크 명함 배너칸 이웃 홈 방문자수 발도장"
 },
 {
+"p": "luvlog/widgets-html.html",
+"s": "luvlog",
+"c": "위젯",
+"t": "HTML 위젯",
+"k": "HTML 위젯 코드 상태창 표 배너 격자 스타일 스크립트 투명 1만 자"
+},
+{
 "p": "luvlog/widgets-bgm.html",
 "s": "luvlog",
 "c": "위젯",
