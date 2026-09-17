@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HTML 페이지와 블록 — 러브인포 안내</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-svc="luvinfo" data-path="luvinfo/html.html">
+<header class="top">
+  <button class="menu" id="menu" aria-label="목차">☰</button>
+  <a class="brand" href="../index.html">LUV<span>GUIDE</span></a>
+  <nav class="svc">
+    <a href="../luvlog/start.html" class="">러브로그</a>
+    <a href="../luvinfo/start.html" class="on">러브인포</a>
+    <a href="../updates.html" class="">업데이트</a>
+  </nav>
+  <div class="search"><input id="q" type="search" placeholder="찾기 — 예: 비밀글, 필름, 대문"><div id="qr" class="qr"></div></div>
+</header>
+<div class="wrap">
+  <aside class="side" id="side"></aside>
+  <main class="doc">
+    <p class="crumb">러브인포 · 페이지</p>
+    <h1>HTML 페이지와 블록</h1>
+    <p class="lead">직접 만든 HTML을 페이지 통째로, 또는 보통 페이지 안의 블록으로 넣을 수 있습니다. 스크립트도 실행됩니다.</p><h2 id="넣는-법">넣는 법</h2><ul><li>HTML 페이지를 만들고 코드를 붙여넣거나 📄 HTML 파일을 불러옵니다. 15만 자를 넘는 큰 HTML은 자동으로 따로 보관됩니다.</li><li>HTML 페이지는 머리글이 자동으로 숨겨지고, 체크로 다시 켤 수 있습니다.</li><li>보통 페이지에는 ＋HTML 블록으로 조각만. 페이지와 같은 대우(스크립트 실행·CSS 격리)입니다.</li></ul><h2 id="알아둘-것">알아둘 것</h2><ul><li><code>document</code>에 이벤트를 다는 스크립트는 홈 전체에 걸리니, 페이지 안 요소에 다세요.</li><li>CSS는 그 페이지 안에서만 먹도록 격리됩니다. <code>body</code>·<code>:root</code>에 쓴 스타일은 페이지 영역으로 치환됩니다.</li><li><code>position:fixed</code>와 큰 z-index는 홈 화면을 덮지 않게 순화됩니다. 화면에 고정되는 요소는 만들 수 없습니다.</li><li>클래스 이름은 홈 자체 스타일과 부딪힐 수 있으니 고유한 접두어를 붙이세요.</li><li><code>@keyframes</code>는 격리 과정에서 깨질 수 있습니다. 움직임은 transition·SVG·JS로.</li><li>iframe 높이는 height 속성이 그대로 존중됩니다.</li></ul><aside class="warn">HTML 때문에 편집 화면까지 깨졌다면 주소 뒤에 <code>?safe=1</code>(HTML 페이지를 그리지 않음) 또는 <code>?nocss=1</code>(직접 CSS 끄기)을 붙여 여세요.</aside><figure class="shot" data-id="li-html-page"><img src="../img/li-html-page.png" alt="" loading="lazy" onerror="this.closest('figure').classList.add('empty')"><span class="ph"><b>사진 자리</b><i>img/li-html-page.png</i></span><figcaption>HTML 페이지 편집 화면</figcaption></figure>
+    <nav class="pn" id="pn"></nav>
+  </main>
+</div>
+<script>window.__ROOT='../';</script>
+<script src="../assets/nav.js"></script>
+</body>
+</html>

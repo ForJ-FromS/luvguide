@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HTML 위젯 — 러브로그 안내</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-svc="luvlog" data-path="luvlog/widgets-html.html">
+<header class="top">
+  <button class="menu" id="menu" aria-label="목차">☰</button>
+  <a class="brand" href="../index.html">LUV<span>GUIDE</span></a>
+  <nav class="svc">
+    <a href="../luvlog/start.html" class="on">러브로그</a>
+    <a href="../luvinfo/start.html" class="">러브인포</a>
+    <a href="../updates.html" class="">업데이트</a>
+  </nav>
+  <div class="search"><input id="q" type="search" placeholder="찾기 — 예: 비밀글, 필름, 대문"><div id="qr" class="qr"></div></div>
+</header>
+<div class="wrap">
+  <aside class="side" id="side"></aside>
+  <main class="doc">
+    <p class="crumb">러브로그 · 위젯</p>
+    <h1>HTML 위젯</h1>
+    <p class="lead">직접 짠 HTML 조각을 위젯 카드 안에 넣습니다. 상태창·표·배너 격자·마키 텍스트처럼 CSS만으로는 만들기 어려운 작은 블록에 씁니다.</p><ul><li>꾸미기 → 위젯 구성에서 「HTML」을 추가하고 ✎에 코드를 붙여 넣습니다. 홈당 3개, 위젯당 10,000자.</li><li>아래 미리보기에 바로 그려지고, 저장은 다른 위젯과 같이 [위젯 구성 저장].</li><li>규칙은 글 HTML 모드와 같습니다 — <code>&lt;style&gt;</code>은 그 위젯 안에만 적용되고, <code>&lt;script&gt;</code>·<code>on*</code> 속성·<code>javascript:</code>는 지워집니다. 화면을 붙잡는 코드(<code>body{}</code> · <code>100vh</code> · <code>position:fixed</code>)는 자동으로 액자에 격리됩니다.</li><li>상태창처럼 카드 없이 붙이려면 🫧 투명을 켜고, 제목 줄도 「제목 줄 숨기기」로 뺄 수 있습니다.</li><li>사진은 base64로 넣지 말고 갤러리에 올린 주소를 쓰세요. 용량이 금방 찹니다.</li><li>홈 색 변수(<code>var(--pri)</code> <code>var(--ink)</code> <code>var(--muted)</code> <code>var(--line)</code> <code>var(--card)</code>)를 쓰면 테마·듀얼을 따라갑니다.</li></ul><aside class="warn">코드 때문에 화면이 깨지면 코드를 비우고 저장하거나, 주소 뒤에 <code>?nocss=1</code>을 붙여 여세요. 스크립트는 방문자의 로그인으로 실행되는 구조라 허용하지 않습니다.</aside><figure class="shot" data-id="ll-w-html"><img src="../img/ll-w-html.png" alt="" loading="lazy" onerror="this.closest('figure').classList.add('empty')"><span class="ph"><b>사진 자리</b><i>img/ll-w-html.png</i></span><figcaption>HTML 위젯 — 편집과 결과</figcaption></figure>
+    <nav class="pn" id="pn"></nav>
+  </main>
+</div>
+<script>window.__ROOT='../';</script>
+<script src="../assets/nav.js"></script>
+</body>
+</html>

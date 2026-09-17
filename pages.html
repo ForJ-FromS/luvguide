@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>페이지 만들기와 관리 — 러브인포 안내</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-svc="luvinfo" data-path="luvinfo/pages.html">
+<header class="top">
+  <button class="menu" id="menu" aria-label="목차">☰</button>
+  <a class="brand" href="../index.html">LUV<span>GUIDE</span></a>
+  <nav class="svc">
+    <a href="../luvlog/start.html" class="">러브로그</a>
+    <a href="../luvinfo/start.html" class="on">러브인포</a>
+    <a href="../updates.html" class="">업데이트</a>
+  </nav>
+  <div class="search"><input id="q" type="search" placeholder="찾기 — 예: 비밀글, 필름, 대문"><div id="qr" class="qr"></div></div>
+</header>
+<div class="wrap">
+  <aside class="side" id="side"></aside>
+  <main class="doc">
+    <p class="crumb">러브인포 · 페이지</p>
+    <h1>페이지 만들기와 관리</h1>
+    <p class="lead">러브인포 홈은 「페이지」를 옆으로 넘기는 구조입니다. 페이지는 보통 페이지(블록 쌓기)와 HTML 페이지 두 종류.</p><h2 id="페이지-종류">페이지 종류</h2><dl class="kv"><dt>보통 페이지</dt><dd>＋ 버튼으로 블록을 추가하고, 블록 목록의 ⠿ 손잡이를 끌거나 ↑↓로 순서(폰도 됨). ⧉로 복제. <a href="blocks.html">블록</a> 참고.</dd><dt>HTML 페이지</dt><dd>코드를 통째로 붙여넣는 페이지. 📄 파일 불러오기 가능. 머리글은 자동으로 숨겨집니다(체크로 다시 켬). <a href="html.html">HTML 페이지·블록</a> 참고.</dd></dl><figure class="shot" data-id="li-pages-edit"><img src="../img/li-pages-edit.png" alt="" loading="lazy" onerror="this.closest('figure').classList.add('empty')"><span class="ph"><b>사진 자리</b><i>img/li-pages-edit.png</i></span><figcaption>보통 페이지 편집 — 블록 목록과 ⠿ 손잡이</figcaption></figure><h2 id="관리">관리</h2><ul><li>페이지 목록 — 편집 하단 바의 ☰ 페이지. 전체 페이지(숨김 포함) 순서 바꾸기·이동.</li><li>숨기기 — 방문자에겐 없는 페이지가 되고 편집 모드에서만 보입니다. 체크를 풀면 그대로 복귀.</li><li>주소 이름 — <code>notice</code>처럼 적어두면 <code>luvinfo.me/핸들#notice</code>로 그 페이지가 바로 열립니다. 링크 블록의 「＋ 내 페이지」로 메뉴처럼 연결.</li><li>페이지 비밀번호 — 그 페이지만 잠깁니다(대문과 별개). 잠금 화면 디자인 6종·안내 문구. 키패드는 숫자 비번일 때만.</li><li>페이지 폭 — 기본(620px) · 넓게(960px) · 화면 꽉 채움. 고정 폭 HTML은 「폰에서는 축소해서 전체 보이기」를 켜면 잘리지 않습니다.</li><li>페이지 넘김 — 점 · 화살표 · 이름 알약 · 숨기기. 넘김 모양(얇은 선·로마 숫자·별·세로 점)과 페이지 전환 효과는 꾸미기에서. ←/→ 키와 스와이프로도 넘어갑니다.</li><li>제목 꾸미기 — 제목 디자인 5종 + 페이지마다 제목 이미지(위/아래).</li></ul><figure class="shot" data-id="li-pages-list"><img src="../img/li-pages-list.png" alt="" loading="lazy" onerror="this.closest('figure').classList.add('empty')"><span class="ph"><b>사진 자리</b><i>img/li-pages-list.png</i></span><figcaption>☰ 페이지 목록</figcaption></figure><figure class="shot" data-id="li-pages-lock"><img src="../img/li-pages-lock.png" alt="" loading="lazy" onerror="this.closest('figure').classList.add('empty')"><span class="ph"><b>사진 자리</b><i>img/li-pages-lock.png</i></span><figcaption>페이지 잠금 화면 6종</figcaption></figure>
+    <nav class="pn" id="pn"></nav>
+  </main>
+</div>
+<script>window.__ROOT='../';</script>
+<script src="../assets/nav.js"></script>
+</body>
+</html>
