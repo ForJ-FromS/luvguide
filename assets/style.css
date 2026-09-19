@@ -123,3 +123,10 @@ ol.toc li a:hover{background:#fff;color:var(--ink)}
   .upd b{grid-column:2;justify-self:start}
   .upd ul{grid-column:2}
 }
+/* 좁은 그림은 왼쪽 칼럼, 설명은 오른쪽 (메뉴 위젯 페이지) */
+.split{display:grid;grid-template-columns:250px minmax(0,1fr);gap:30px;align-items:start;margin:14px 0 28px}
+.split.rail{grid-template-columns:84px minmax(0,1fr)}
+.split figure.shot{margin:0}
+.split .shot img{width:100%;height:auto;display:block}
+.split>div>p:first-child{margin-top:0}
+@media(max-width:720px){.split,.split.rail{grid-template-columns:1fr}.split figure.shot{max-width:260px}.split.rail figure.shot{max-width:84px}}
