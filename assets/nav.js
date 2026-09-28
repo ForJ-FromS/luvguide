@@ -190,6 +190,13 @@ const NAV=[
 "k": "HTML 스크립트 CSS 격리 파일 업로드 nocss safe iframe 접두어 keyframes fixed 15만 자 document 이벤트"
 },
 {
+"p": "luvinfo/templates.html",
+"s": "luvinfo",
+"c": "페이지",
+"t": "템플릿",
+"k": "템플릿 나눔 갤러리 가져오기 내 홈에 추가 파일 받기 올리기 공유 익명 사용 범위 template by 제작자"
+},
+{
 "p": "luvinfo/gate.html",
 "s": "luvinfo",
 "c": "꾸미기",
@@ -201,7 +208,7 @@ const NAV=[
 "s": "luvinfo",
 "c": "꾸미기",
 "t": "꾸미기",
-"k": "프리셋 색 폰트 제목 폰트 본문 크기 줄간격 카드 모서리 투명도 테두리 여백 머리글 배경 효과 커서 맨 아래 표시 방문자 수 직접 CSS 러브로그에서 가져오기"
+"k": "프리셋 색 폰트 제목 폰트 본문 크기 줄간격 카드 색 모서리 투명도 테두리 여백 머리글 배경 효과 커서 맨 아래 표시 방문자 수 직접 CSS 커스텀 CSS 러브로그에서 가져오기 공개 범위 이용자만 서로 배너만 비공개 파비콘 앱 아이콘 배너 PC 넓은 창"
 },
 {
 "p": "luvinfo/guestbook.html",

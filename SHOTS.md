@@ -54,3 +54,12 @@
 - ll-cursor-set.png — 상황별 커서
 - ll-w-counter-skins.png — 방문자수 새 스킨 5종
 - ll-start-login.png · ll-start-signup.png(교체) · li-start-landing.png · li-start-signup.png(교체) — 9/27 새 공용 화면
+
+## 2026.09.28 러브인포 추가·교체
+- li-design.png — 꾸미기 PC(01 색 · 글씨) — 교체
+- li-design-05.png — 꾸미기 PC(05 공개 · 대문)
+- li-design-mobile.png — 꾸미기 폰(목록 · 05 펼침)
+- li-pages-edit.png — 보통 페이지 편집 PC — 교체
+- li-html-page.png — HTML 페이지 편집 PC(설정 · 코드 · 미리보기) — 교체
+- li-html-preview.png — 미리보기 넘침 안내 · 모바일
+- li-templates.png — 템플릿 카드
