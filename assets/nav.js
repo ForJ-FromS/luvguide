@@ -12,7 +12,7 @@ const NAV=[
 "s": "luvlog",
 "c": "시작하기",
 "t": "화면 구성과 버튼",
-"k": "갠홈 블로그 매거진 편집 모드 꾸미기 버튼 ⠿ ✦ ✎ 알림함 🔔 INBOX NEW 왼쪽 칼럼"
+"k": "갠홈 블로그 매거진 편집 모드 꾸미기 버튼 ⠿ ✦ ✎ 알림함 🔔 INBOX NEW 왼쪽 칼럼 MENU LAYOUT DESIGN WRITE"
 },
 {
 "p": "luvlog/write.html",
@@ -117,7 +117,7 @@ const NAV=[
 "s": "luvlog",
 "c": "꾸미기",
 "t": "🌗 듀얼 테마",
-"k": "듀얼 A B 전환 아침 밤 모드 사진 버튼 움짤 지금 모드 표시 효과 없이"
+"k": "듀얼 A B 전환 아침 밤 모드 사진 버튼 움짤 지금 모드 표시 효과 없이 두 모드에 같은 내용 위젯 공유 배너"
 },
 {
 "p": "luvlog/stickers.html",
