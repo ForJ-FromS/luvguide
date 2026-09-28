@@ -45,3 +45,12 @@
 - `img/li-presets.png` — 테마 프리셋 10종 — 같은 페이지가 프리셋마다 이렇게 바뀌어요
 - `img/li-design.png` — 꾸미기 시트
 - `img/li-guestbook.png` — 방명록 블록
+
+## 2026.09.28 추가·교체
+- ll-theme-panel.png — 테마·레이아웃 설정 창(섹션 카드·칩) — 교체
+- ll-widget-list.png — 위젯 구성 목록 — 교체
+- ll-widget-types.png — 위젯별로 보기·꺼둔 칸 펼침
+- ll-basic-panel.png — 기본 정보 설정 창
+- ll-cursor-set.png — 상황별 커서
+- ll-w-counter-skins.png — 방문자수 새 스킨 5종
+- ll-start-login.png · ll-start-signup.png(교체) · li-start-landing.png · li-start-signup.png(교체) — 9/27 새 공용 화면
